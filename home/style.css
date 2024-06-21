@@ -1,0 +1,38 @@
+/*Configuração Padrão de início*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header { /*Chamamos nosso Header para estilização*/ 
+    background-color: rgb(49, 45, 58); /*Cor de fundo*/
+    padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
+}
+
+.menu-header { 
+    
+    display: flex; 
+}
+.menu-header > li > a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 13px; 
+    background-repeat: no-repeat; 
+ }
+ .menu-header li {
+    margin-right: 25px;
+    padding-left: 100px;
+
+ }
+.menu-header img {
+
+    width: 6rem;
+}

@@ -13,7 +13,7 @@ body {
 }
 
 header { /*Chamamos nosso Header para estilização*/ 
-    background-color: rgb(49, 45, 58); /*Cor de fundo*/
+    background-color: grey; /*Cor de fundo*/
     padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
 }
 

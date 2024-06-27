@@ -13,7 +13,7 @@ body {
 }
 
 header { /*Chamamos nosso Header para estilização*/ 
-    background-color: grey; /*Cor de fundo*/
+    background-color: rgb(53, 48, 48); /*Cor de fundo*/
     padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
 }
 
@@ -36,3 +36,45 @@ header { /*Chamamos nosso Header para estilização*/
 
     width: 6rem;
 }
+
+#sessao{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+ }
+
+ #sessao > button { 
+    padding: 20px;
+    border-radius: 50px; 
+    width: 20vw; 
+    cursor: pointer;
+    border-color: rgb(0, 0, 0); 
+    margin: 30px; 
+     }
+
+  #sessao > button a {
+  text-decoration: none;
+  color: #080808;
+  font-size: 15px;
+  }
+
+  #sessao > button:hover { 
+    background-color: rgb(219, 104, 27); 
+    border-color: rgb(0, 0, 0); 
+    transition: 0.5s;
+    }
+
+    #sessao > button a:hover{
+        color: rgb(0, 0, 0);
+        transition: 0.8s;
+    }
+
+    #app { 
+        padding: 8vh; 
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #app > div img {
+        width: 50rem;;
+
+    }

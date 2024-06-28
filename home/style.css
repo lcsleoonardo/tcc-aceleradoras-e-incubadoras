@@ -8,13 +8,13 @@
 
 /*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
 body {
-    height: 100vh;
+    height: 25vh;
     width: 100vw;
 }
 
 header { /*Chamamos nosso Header para estilização*/ 
     background-color: rgb(53, 48, 48); /*Cor de fundo*/
-    padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
+    padding: 3vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
 }
 
 .menu-header { 
@@ -25,10 +25,11 @@ header { /*Chamamos nosso Header para estilização*/
     color: white; 
     text-decoration: none; 
     font-size: 13px; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+
  }
  .menu-header li {
-    margin-right: 25px;
+    margin-right: 70px;
     padding-left: 100px;
 
  }
@@ -49,6 +50,7 @@ header { /*Chamamos nosso Header para estilização*/
     cursor: pointer;
     border-color: rgb(0, 0, 0); 
     margin: 30px; 
+    
      }
 
   #sessao > button a {
@@ -67,14 +69,57 @@ header { /*Chamamos nosso Header para estilização*/
         color: rgb(0, 0, 0);
         transition: 0.8s;
     }
-
-    #app { 
-        padding: 8vh; 
-        display: flex;
+    
+    #app { /*Aqui chamamos nosso segundo ID da página*/
+        padding: 30vh; /*Atribuimos um tamanho para o preenchimento --  podemos usar 170px*/
+        background-color: rgb(226, 233, 233); /*cor de fundo*/
+         display: flex;
         justify-content: space-around;
     }
     
-    #app > div img {
-        width: 50rem;;
-
+    
+    #app > div > button { /*Aqui chamamos nosso botão para estilização*/
+        padding: 20px; /*Preenchimento do nosso botão*/
+        border-radius: 50px; /*Arredondamento da borda do botão*/
+        width: 15vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
+        color: rgb(0, 0, 0); /*Aqui atribuimos uma cor a letra do botão*/
+        border-color: rgb(255, 134, 36); /*Cor da borda*/
+        margin: 30px; /*Margem em volta do Button*/
+        font-size: 15px; /*Tamanho da letra dentro do Button*/
+        cursor: pointer;
     }
+    
+    #app h1 {
+        text-decoration: none;
+        color: #080808;
+        font-size: 35px;
+    }
+
+    #app  div img { /*Imagem que está dentro da nossa segunda Section*/
+        width: 50vw; /*Lagura da nossa img*/
+        height: -100vh; /*Altura da nossa img*/
+        margin-left: 50px; /*Margem a Esquerda*/
+        margin-top: -90px; /*Margem a Direita*/
+    }
+    
+    
+    #app > div button:hover{ /*Aqui chamamos nosso botão para estilização ao passar o Cursor*/
+        background-color: rgb(71, 65, 65); /*A cor de fundo mudará para esta*/
+        transition: 0.8s;
+        border-color: rgb(0, 0, 0); /*Cor da borda*/
+        
+    }
+    
+    #app div button a {
+        text-decoration: none;
+        color: rgb(241, 133, 8); /*Cor da letra*/
+        font-size: 15px; /*Tamanho da letra dentro do button*/
+    }
+    
+    #app div button a:hover {
+        color: white; /*Cor da letra*/
+        transition: 0.8s;
+    }
+    
+    
+    

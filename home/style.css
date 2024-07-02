@@ -38,6 +38,11 @@ header { /*Chamamos nosso Header para estilização*/
     width: 6rem;
 }
 
+.sessao-video {
+    padding: 10rem;
+    
+}
+
 #sessao{
     font-size: 40px;
     color: rgb(0, 0, 0);

@@ -15,7 +15,7 @@ function myFunction() {
 
     {
         video.pause();
-        btn.innerHTML = "play";
+        btn.innerHTML = "Play";
     }
 }
 

@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/80da3dddd1.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -33,14 +34,18 @@
 <!-- src="video/videoplayback.mp4" -->
 
    <section class="sessao-video"> 
+       <div id="div-pai">
+        <div class="div-video">
+          <video id="myVideo">
+
+          <source src="video/videoplayback.mp4" type="video/mp4">
+
+         </video>
+       </div>
+
        <div>
-           <video  autoplay muted loop id="myVideo">
-
-           <source src="video/videoplayback.mp4" type="video/mp4">
-
-          </video>
-
-           <button id="myBtn" onclick="myFunction()">Pause</button>
+         <button id="myBtn" onclick="myFunction()">Pause</button>
+       </div>
        </div>
    </section>
 
@@ -80,29 +85,36 @@
     </section>
 
     <section class="sessao2">
-
-     <div class="container2">
-
-      <div>
-
-       <h2>Seja uma Startup Cubo</h2>
-
-      <div class="divon">
-       <p>E tenha acesso a:</p>
-
-      </div>
-
-          
-      <div class="div-pai1">
-        <div class="div1"></div>
-        <div class="div2"></div>
-        <div class="div3"></div>
-        </div>
-        
-
       
+      <div class="container2">
+        
+        <div>
+          
+          <h2>Seja uma Startup Cubo</h2>
+          
+          <div class="divon">
+            
+            <p>E tenha acesso a:</p>
+          
+          </div>
+          
+          <div class="div-pai1">
+            
+            <div class="div1 efeito-roll">
+              <img src="https://troposlab.com/wp-content/uploads/2022/05/Toda-startup-precisa-resolver-um-problema-2022-scaled-e1652730683361.jpg" alt="">
+            </div>
 
-    </div>
+            <div class="div2 efeito-roll">
+              <img src="https://troposlab.com/wp-content/uploads/2021/08/startup-exit.jpg" alt="">
+            </div>
+
+            <div class="div3 efeito-roll">
+              <img src="https://startups.com.br/wp-content/uploads/2022/02/1200x675-18.png" alt="">
+            </div>
+          
+          </div>
+        
+        </div>
 
   
    </section>

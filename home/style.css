@@ -1,5 +1,5 @@
 /*Configuração Padrão de início*/
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -12,188 +12,247 @@ body {
     width: 100vw;
 }
 
-header { /*Chamamos nosso Header para estilização*/ 
-    background-color: rgb(22, 21, 21); /*Cor de fundo*/
-    padding: 3vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
+header {
+    /*Chamamos nosso Header para estilização*/
+    background-color: rgb(22, 21, 21);
+    /*Cor de fundo*/
+    padding: 3vh;
+    /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
 }
 
-.menu-header { 
-    
-    display: flex; 
+.menu-header {
+
+    display: flex;
 }
-.menu-header > li > a { 
-    color: white; 
-    text-decoration: none; 
-    font-size: 13px; 
+
+.menu-header>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
     background-repeat: no-repeat;
 
- }
- .menu-header li {
+}
+
+.menu-header li {
     margin-right: 70px;
     padding-left: 100px;
 
- }
+}
+
 .menu-header img {
 
     width: 6rem;
 }
 
 .sessao-video {
-    padding: 10rem;
-    
+    padding: 1rem;
 }
 
-#sessao{
+#div-pai {
+    margin-left: 25%;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sessao {
     font-size: 40px;
     color: rgb(0, 0, 0);
- }
+}
 
- #sessao > button { 
+#sessao>button {
     padding: 20px;
-    border-radius: 50px; 
-    width: 20vw; 
+    border-radius: 50px;
+    width: 20vw;
     cursor: pointer;
-    border-color: rgb(0, 0, 0); 
-    margin: 30px; 
-    
-     }
+    border-color: rgb(0, 0, 0);
+    margin: 30px;
+}
 
-  #sessao > button a {
-  text-decoration: none;
-  color: #080808;
-  font-size: 15px;
-  }
+#sessao>button a {
+    text-decoration: none;
+    color: #080808;
+    font-size: 15px;
+}
 
-  #sessao > button:hover { 
-    background-color: rgb(219, 104, 27); 
-    border-color: rgb(0, 0, 0); 
+#sessao>button:hover {
+    background-color: rgb(219, 104, 27);
+    border-color: rgb(0, 0, 0);
     transition: 0.5s;
-    }
+}
 
-    #sessao > button a:hover{
-        color: rgb(0, 0, 0);
-        transition: 0.8s;
-    }
-    
-    #app { /*Aqui chamamos nosso segundo ID da página*/
-        padding: 30vh; /*Atribuimos um tamanho para o preenchimento --  podemos usar 170px*/
-        background-color: rgb(226, 233, 233); /*cor de fundo*/
-         
-    }
-    .div-pai {
-        display: flex;
-    }
-    
-    
-    #app > div > button { /*Aqui chamamos nosso botão para estilização*/
-        padding: 20px; /*Preenchimento do nosso botão*/
-        border-radius: 10px; /*Arredondamento da borda do botão*/
-        width: 15vw; /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
-        color: rgb(0, 0, 0); /*Aqui atribuimos uma cor a letra do botão*/
-        border-color: rgb(26, 25, 25); /*Cor da borda*/
-        margin: 30px; /*Margem em volta do Button*/
-        font-size: 15px; /*Tamanho da letra dentro do Button*/
-        cursor: pointer;
-    }
-    
-    #app h1 {
-        text-decoration: none;
-        color: #080808;
-        font-size: 35px;
-    }
+#sessao>button a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.8s;
+}
 
-    #app  div img { /*Imagem que está dentro da nossa segunda Section*/
-        width: 50vw; /*Lagura da nossa img*/
-        height: -100vh; /*Altura da nossa img*/
-        margin-left: 50px; /*Margem a Esquerda*/
-        margin-top: -90px; /*Margem a Direita*/
-    }
-    
-    
-    #app > div button:hover{ /*Aqui chamamos nosso botão para estilização ao passar o Cursor*/
-        background-color: rgb(168, 181, 187); /*A cor de fundo mudará para esta*/
-        transition: 0.8s;
-        border-color: rgb(0, 0, 0); /*Cor da borda*/
-        
-    }
-    
-    #app div button a {
-        text-decoration: none;
-        color: rgb(27, 150, 199); /*Cor da letra*/
-        font-size: 15px; /*Tamanho da letra dentro do button*/
-    }
-    
-    #app div button a:hover {
-        color: white; /*Cor da letra*/
-        transition: 0.8s;
-    }
-    .div-pai1 {
-        display: flex;
-        justify-content: space-between;
-        margin: 50px;
+#app {
+    /*Aqui chamamos nosso segundo ID da página*/
+    padding: 30vh;
+    /*Atribuimos um tamanho para o preenchimento --  podemos usar 170px*/
+    background-color: rgb(226, 233, 233);
+    /*cor de fundo*/
 
-        }
-       .div1 {
-        
-        background-image: url(https://troposlab.com/wp-content/uploads/2022/05/Toda-startup-precisa-resolver-um-problema-2022-scaled-e1652730683361.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    
-        width: 200px;
+}
 
-        height: 200px;
-    }
-    .div2{
-        
-        background-image: url(https://troposlab.com/wp-content/uploads/2021/08/startup-exit.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    
-        width: 255px;
+.div-pai {
+    display: flex;
+}
 
-        height: 200px;
-    }
-    .div3{
-        
-        background-image: url(https://startups.com.br/wp-content/uploads/2022/02/1200x675-18.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-    
-        width: 285px;
 
-        height: 200px;
-    }
-  .divon{
+#app>div>button {
+    /*Aqui chamamos nosso botão para estilização*/
+    padding: 20px;
+    /*Preenchimento do nosso botão*/
+    border-radius: 10px;
+    /*Arredondamento da borda do botão*/
+    width: 15vw;
+    /*Tamanho lateral do botão (largura) ----  podemos usar 300px*/
+    color: rgb(0, 0, 0);
+    /*Aqui atribuimos uma cor a letra do botão*/
+    border-color: rgb(26, 25, 25);
+    /*Cor da borda*/
+    margin: 30px;
+    /*Margem em volta do Button*/
+    font-size: 15px;
+    /*Tamanho da letra dentro do Button*/
+    cursor: pointer;
+}
+
+#app h1 {
+    text-decoration: none;
+    color: #080808;
+    font-size: 35px;
+}
+
+#app div img {
+    /*Imagem que está dentro da nossa segunda Section*/
+    width: 50vw;
+    /*Lagura da nossa img*/
+    height: -100vh;
+    /*Altura da nossa img*/
+    margin-left: 50px;
+    /*Margem a Esquerda*/
+    margin-top: -90px;
+    /*Margem a Direita*/
+}
+
+
+#app>div button:hover {
+    /*Aqui chamamos nosso botão para estilização ao passar o Cursor*/
+    background-color: rgb(168, 181, 187);
+    /*A cor de fundo mudará para esta*/
+    transition: 0.8s;
+    border-color: rgb(0, 0, 0);
+    /*Cor da borda*/
+
+}
+
+#app div button a {
+    text-decoration: none;
+    color: rgb(27, 150, 199);
+    /*Cor da letra*/
+    font-size: 15px;
+    /*Tamanho da letra dentro do button*/
+}
+
+#app div button a:hover {
+    color: white;
+    /*Cor da letra*/
+    transition: 0.8s;
+}
+
+.div-pai1 {
+    display: flex;
+    margin: 50px;
+
+}
+
+.div1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.div1 img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.div2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.div2 img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.div3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.div3 img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.divon {
     color: rgb(17, 145, 196);
-  }
-  .div-01  {
-   font-size: 15px;
-  }
-#section-1{
-    background: linear-gradient(180deg, #14141464 8.33%, rgba(240, 242, 247, 0.745) 100%), url(https://endomarketing.tv/wp-content/uploads/2017/08/endomarketing-progic-4-formas-de-otimizar-a-comunica%C3%A7%C3%A3o-interna-com-a-TV-corporativa-712x350.gif); /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
-    background-position: center; /*posicionamento da imagem*/
-    background-attachment: fixed; /*Posicionamento fixo da imagem*/
-    padding: 15%; /*altura da section*/
-    display: flex; /*Habilitando os itens lado a lado*/
-    align-items: center; /*Alinhando os itens ao centro*/
+}
+
+.div-01 {
+    font-size: 15px;
+}
+
+#section-1 {
+    background: linear-gradient(180deg, #14141464 8.33%, rgba(240, 242, 247, 0.745) 100%), url(https://endomarketing.tv/wp-content/uploads/2017/08/endomarketing-progic-4-formas-de-otimizar-a-comunica%C3%A7%C3%A3o-interna-com-a-TV-corporativa-712x350.gif);
+    /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
+    background-position: center;
+    /*posicionamento da imagem*/
+    background-attachment: fixed;
+    /*Posicionamento fixo da imagem*/
+    padding: 15%;
+    /*altura da section*/
+    display: flex;
+    /*Habilitando os itens lado a lado*/
+    align-items: center;
+    /*Alinhando os itens ao centro*/
     justify-content: space-evenly;
-  background-repeat:repeat;
+    background-repeat: repeat;
 }
-footer { /*Aqui começamos a estilização do Rodapé*/
-    padding: 13vh; /*Preenchimento do Rodapé*/ 
-    background-color: rgb(29, 28, 28); /*Cor de fundo*/
-    text-align: center; /*Alinhando ao centro*/
-    
+
+footer {
+    /*Aqui começamos a estilização do Rodapé*/
+    padding: 13vh;
+    /*Preenchimento do Rodapé*/
+    background-color: rgb(29, 28, 28);
+    /*Cor de fundo*/
+    text-align: center;
+    /*Alinhando ao centro*/
+
 }
+
 footer h2 {
     color: white;
 }
+
 footer p {
     color: white;
 }
-  
-
-    
